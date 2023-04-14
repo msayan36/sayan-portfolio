@@ -1,0 +1,42 @@
+.email {
+  position: fixed;
+  bottom: 0;
+  right: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  &-link {
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: var(--light-slate);
+    font-family: var(--fira-code);
+    font-weight: 300;
+    font-size: var(--tsm);
+    letter-spacing: 0.1rem;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: var(--theme-color);
+      transform: translateY(-4px);
+    }
+    &:focus {
+      color: var(--theme-color);
+      transform: translateY(-4px);
+    }
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 90px;
+    background-color: var(--light-slate);
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 1080px) {
+    right: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
