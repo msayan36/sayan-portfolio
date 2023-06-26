@@ -117,7 +117,7 @@ const Projects = () => {
       }}
     >
       <div className="title">
-        <h2>Few Things I've Built.</h2>
+        <h2>Few Things I&apos;ve Built.</h2>
       </div>
       <div className="project-container">
         <div className="projects-container">
