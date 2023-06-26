@@ -240,8 +240,8 @@ const Projects = () => {
                       {projectDescription}
                     </p>
                     <div className="project-cont">
-                      {projectTech.map((tech) => (
-                        <span>{tech}</span>
+                      {projectTech.map((tech, idx) => (
+                        <span key={idx}>{tech}</span>
                       ))}
                     </div>
                   </div>
