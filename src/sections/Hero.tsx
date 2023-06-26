@@ -41,7 +41,7 @@ const Hero = () => {
           delay: 1.05,
         }}
       >
-        Designer | Developer.
+        FullStack Developer.
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -54,8 +54,8 @@ const Hero = () => {
         }}
       >
         I’m a design minded creative software engineer from Kolkata, India. I
-        like building solid and scalable mobile or web apps with great user
-        experience. I like to write clean and elegant code.
+        like building solid and scalable web apps with great user experience. I
+        like to write clean and elegant code.
         {/* <Link href="https://google.com" target="_blank" className="link">
           Company Name
         </Link> */}
@@ -73,34 +73,6 @@ const Hero = () => {
         <div className="contact-cta">
           <Button text="Let's Talk" link="mailto:sayanmunshi36@gmail.com" />
         </div>
-        {/* <Link
-          href="https://github.com/msayan36"
-          className="social-icons-list-item-link"
-          target="_blank"
-        >
-          <FiGithub />
-        </Link>
-        <Link
-          href="https://www.linkedin.com/in/msayan36"
-          className="social-icons-list-item-link"
-          target="_blank"
-        >
-          <FiLinkedin />
-        </Link>
-        <Link
-          href="https://www.instagram.com/blank_36_r"
-          className="social-icons-list-item-link"
-          target="_blank"
-        >
-          <FiInstagram />
-        </Link>
-        <Link
-          href="https://twitter.com/blank_36"
-          className="social-icons-list-item-link"
-          target="_blank"
-        >
-          <FiTwitter />
-        </Link> */}
       </motion.div>
     </div>
   );

@@ -14,12 +14,12 @@ const SocialIcons = () => {
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "https://www.instagram.com/blank_36_r",
+      link: "https://www.instagram.com/msayan36",
     },
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "https://twitter.com/blank_36",
+      link: "https://twitter.com/sayanm36",
     },
   ];
 
