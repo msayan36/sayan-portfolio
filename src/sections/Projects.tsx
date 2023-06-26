@@ -131,7 +131,7 @@ const Projects = () => {
               projectTech,
             }) => {
               return (
-                <div
+                <motion.div
                   className="project"
                   key={projectName}
                   initial="hidden"
@@ -196,7 +196,7 @@ const Projects = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </motion.div>
               );
             }
           )}
