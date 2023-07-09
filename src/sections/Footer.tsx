@@ -22,7 +22,7 @@ function Footer() {
       .catch((e) => console.error(e));
   }, []);
 
-  console.log(githubInfo);
+  // console.log(githubInfo);
 
   return (
     <footer>
