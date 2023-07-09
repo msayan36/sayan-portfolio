@@ -10,7 +10,7 @@ function Footer() {
   });
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/msayan36")
+    fetch("https://api.github.com/users/msayan36/repos")
       .then((response) => response.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -21,6 +21,8 @@ function Footer() {
       })
       .catch((e) => console.error(e));
   }, []);
+
+  console.log(githubInfo);
 
   return (
     <footer>
