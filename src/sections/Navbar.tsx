@@ -116,7 +116,7 @@ const Navbar = () => {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="/resume.pdf" />
+            <Button text="Resume" link="/Sayan's Resume.pdf" />
           </motion.div>
         </div>
       </div>
