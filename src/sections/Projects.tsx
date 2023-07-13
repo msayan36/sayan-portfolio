@@ -9,39 +9,39 @@ import { CgWebsite } from "react-icons/cg";
 const Projects = () => {
   const projectsData = [
     {
-      image: "/project1.png",
+      image: "/pokedex.png",
       projectName: "Pokedex",
       projectLink: "https://pokedex-by-blank.netlify.app",
       projectDescription:
-        "This is a web application that uses the PokeAPI to desplay information about different Pokemon.",
-      projectTech: ["React", "Redux Toolkit", "PokeAPI", "CSS"],
+        "This is a web application that uses the PokeAPI to display information about different Pokemon.",
+      projectTech: ["ReactJs", "PokeAPI", "CSS"],
       projectExternalLinks: {
         github: "https://github.com/msayan36/PokeDex",
         externalLink: "https://pokedex-by-blank.netlify.app",
       },
     },
     {
-      image: "/project2.jpg",
-      projectName: "Spotify Clone",
-      projectLink: "https://pokedex-by-blank.netlify.app",
+      image: "/ecommerce.png",
+      projectName: "Ecommerce Application",
+      projectLink: "https://ecommerce-frontend-bay.vercel.app",
       projectDescription:
-        "This is a web application that uses the PokeAPI to desplay information about different Pokemon.",
-      projectTech: ["React", "Redux Toolkit", "PokeAPI", "CSS"],
+        "This is a Full-Stack Ecommerce web application where users can post products to sell and also can buy products from other users.",
+      projectTech: ["NextJs", "NodeJs", "TailwindCSS", "MongoDB"],
       projectExternalLinks: {
-        github: "https://github.com/msayan36/PokeDex",
-        externalLink: "https://pokedex-by-blank.netlify.app",
+        github: "https://github.com/msayan36/Ecommerce-frontend",
+        externalLink: "https://ecommerce-frontend-bay.vercel.app",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Mario Web Version",
-      projectLink: "https://pokedex-by-blank.netlify.app",
+      image: "/space-invaders.png",
+      projectName: "Space Invaders Web Version",
+      projectLink: "https://space-invaders-by-sayan.netlify.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to desplay information about different Pokemon.",
-      projectTech: ["React", "Redux Toolkit", "PokeAPI", "CSS"],
+        "This is a web version of the famous Space Invaders Arcade Game.",
+      projectTech: ["HTML Canvas", "JavaScript"],
       projectExternalLinks: {
-        github: "https://github.com/msayan36/PokeDex",
-        externalLink: "https://pokedex-by-blank.netlify.app",
+        github: "https://github.com/msayan36/Space-Invaders",
+        externalLink: "https://space-invaders-by-sayan.netlify.app/",
       },
     },
   ];
@@ -49,57 +49,55 @@ const Projects = () => {
   const otherProjectData = [
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
+      projectLink: "https://realtime-chat-app-dusky-ten.vercel.app/",
+      githubLink: "https://github.com/msayan36/realtime-chat-app",
+      projectName: "Real-Time Chat App",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+        "Real-Time Chat Room where users can login or register and use the chat room to chat with other users in real-time. It is built using open source backend as service Appwrite.",
+      projectTech: ["ReactJs", "Appwrite", "CSS"],
     },
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
+      projectLink: "https://github.com/msayan36/Dotcast",
+      githubLink: "https://github.com/msayan36/Dotcast",
+      projectName: "DotCast",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+        "DotCast is Web Based Podcast Sharing Application where every Data is decentalized. Here users can subscribe as well as invest in their favourite creators channel and creators can live-stream.",
+      projectTech: ["Web 3.0", "WebRTC", "MERN"],
     },
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
+      projectLink: "https://github.com/msayan36/code-sync",
+      githubLink: "https://github.com/msayan36/code-sync",
+      projectName: "Code Sync",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+        "CodeSync is a real-time text-editor where users can share same room with other users and can collaborate in real-time. Can also execute JavaScript Code in the editor itself.",
+      projectTech: ["ReactJS", "JavaScript", "Socket.io"],
     },
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
+      projectLink: "https://github.com/msayan36/Spotify-App",
+      githubLink: "https://github.com/msayan36/Spotify-App",
+      projectName: "Spotify Clone",
       projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+        "Spotify Clone Mobile Application built using React Native and Spotify API.",
+      projectTech: ["React Native", "JavaScript", "Spotify API"],
     },
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
-      projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+      projectLink: "https://iem-iete-students-forum.netlify.app",
+      githubLink: "https://github.com/msayan36/Iete-new",
+      projectName: "IEM-IETE Students' Forum",
+      projectDescription: "Official Website for IEM-IETE Students' Forum.",
+      projectTech: ["ReactJS", "DaisyUI", "Strapi"],
     },
     {
       titleIcon: <CgWebsite className="left-icon" />,
-      projectLink: "Link",
-      githubLink: "Link",
-      projectName: "Project Title",
-      projectDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus maiores dolores officia? Iure aliquid consectetur libero amet deleniti provident?",
-      projectTech: ["React", "Javascript", "CSS"],
+      projectLink: "https://github.com/msayan36/Weather-Mobile-App",
+      githubLink: "https://github.com/msayan36/Weather-Mobile-App",
+      projectName: "Weather App",
+      projectDescription: "Weather Mobile Application built using React Native",
+      projectTech: ["React Native", "JavaScript", "Weather API"],
     },
   ];
 
